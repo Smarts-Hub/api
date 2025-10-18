@@ -1,4 +1,4 @@
-import { Paste, IPaste } from "../models/pastes.model.ts";
+import { Paste, IPaste } from "../models/pastes.model.js";
 import { nanoid } from "nanoid";
 import bcrypt from "bcryptjs";
 

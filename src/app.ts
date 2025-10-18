@@ -1,8 +1,8 @@
 import express from "express";
 import cors from "cors";
-import healthRoutes from "./routes/health.routes.ts";
-import pastesRoutes from "./routes/pastes.routes.ts";
-import { errorHandler } from "./middlewares/error.middleware.ts";
+import healthRoutes from "./routes/health.routes.js";
+import pastesRoutes from "./routes/pastes.routes.js";
+import { errorHandler } from "./middlewares/error.middleware.js";
 
 const app = express();
 
