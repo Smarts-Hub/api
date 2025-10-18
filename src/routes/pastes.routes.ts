@@ -1,5 +1,5 @@
 import { Router } from "express";
-import * as PasteController from "../controllers/pastes.controller";
+import * as PasteController from "../controllers/pastes.controller.ts";
 
 const router = Router();
 

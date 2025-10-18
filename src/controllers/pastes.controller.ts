@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import * as PasteService from "../services/pastes.service";
+import * as PasteService from "../services/pastes.service.ts";
 import bcrypt from "bcryptjs";
 
 export const createPaste = async (req: Request, res: Response) => {
