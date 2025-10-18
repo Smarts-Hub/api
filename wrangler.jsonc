@@ -1,0 +1,8 @@
+{
+    "name": "smartshub-api",
+    "compatibility_date": "2025-10-18",
+    "main": "./dist/server.js",
+    "compatibility_flags": [
+        "nodejs_compat"
+    ]
+}
